@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>故人初心</title>
+<title>建站第一天 | 故人初心</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://grcx851.github.io/styles/main.css">
 
+
+  
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -75,32 +83,35 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          
+          <h2 class="post-title">建站第一天</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-02-10</span>
+            
+          </div>
+          <div class="post-content">
+            <p>今天建站成功非常的可喜可贺，YES！<br>
+太不容易了，小破站今日开始运行。<br>
+😁😁😁😁😁😁😁😁😁<br>
+<img src="https://grcx851.github.io/post-images/1612946080358.png" alt="" loading="lazy"></p>
 
-<div class="archives-container">
-  
-    <h2 class="year">2021</h2>
-    
-      
-        <article class="post">
-          <a href="https://grcx851.github.io/post/jian-zhan-di-yi-tian/">
-            <h2 class="post-title">
-              建站第一天
-              <small>2021-02-10</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
-
-
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+      </div>
+
+      
+        
+
+        
+          <div id="disqus_thread"></div>
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">温故而知新</div>
   <div class="social-container">
     
@@ -119,8 +130,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -135,7 +146,26 @@ var app = new Vue({
 
 
 
+  
 
-    </div>
+  
+    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script>
+
+    var options = {
+      shortname: '',
+      apikey: '',
+    }
+    if ('') {
+      options.api = ''
+    }
+    var dsqjs = new DisqusJS(options)
+
+    </script>
+  
+
+
+
+
   </body>
 </html>
